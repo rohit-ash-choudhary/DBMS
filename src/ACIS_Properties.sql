@@ -1,0 +1,1 @@
+Link : https://www.geeksforgeeks.org/acid-properties-in-dbms/

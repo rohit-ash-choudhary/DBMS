@@ -1,0 +1,30 @@
+-- RDBMS stands for Relational Database Management System.
+
+   All modern database management systems like SQL, MS SQL Server, IBM DB2, ORACLE, My-SQL,
+   and Microsoft Access are based on RDBMS.
+   It is called Relational Database Management System (RDBMS) because it is based on the relational model introduced by E.F. Codd.
+   How it works
+   Data is represented in terms of tuples (rows) in RDBMS.
+
+   A relational database is the most commonly used database. It contains several tables, and each table has its primary key.
+
+   Due to a collection of an organized set of tables, data can be accessed easily in RDBMS.
+
+   What is table/Relation?
+   Everything in a relational database is stored in the form of relations.
+   The RDBMS database uses tables to store data. A table is a collection of related data entries and
+   contains rows and columns to store data. Each table represents some real-world objects such as person, place, or event about which information is collected. The organized collection of data into a relational table is known as the logical view of the database.
+
+   Properties of a Relation:
+
+   Each relation has a unique name by which it is identified in the database.
+   Relation does not contain duplicate tuples.
+   The tuples of a relation have no specific order.
+   All attributes in a relation are atomic, i.e., each cell of a relation contains exactly one value.
+
+   ----Data Integrity
+           There are the following categories of data integrity exist with each RDBMS:
+           Entity integrity: It specifies that there should be no duplicate rows in a table.
+           Domain integrity: It enforces valid entries for a given column by restricting the type, the format, or the range of values.
+           Referential integrity specifies that rows cannot be deleted, which are used by other records.
+           User-defined integrity: It enforces some specific business rules defined by users. These rules are different from the entity, domain, or referential integrity.
